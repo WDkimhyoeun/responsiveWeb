@@ -50,6 +50,14 @@ ul {
     float:left;
 }
 
+.boxes_heading-web >h1 {
+    width: 20%;
+}
+
+.boxes_heading-web h1:nth-child(1) {
+    text-align: right;
+}
+
 .boxes_sub-heading-table {
     height: 400px;
     background-color: #2d3b3f;
