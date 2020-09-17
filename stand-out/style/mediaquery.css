@@ -1,0 +1,50 @@
+
+
+/* smartphone */
+@media all and (min-width:320px) {
+    * {
+        padding-left: 0%;
+    }
+
+    p {
+        width: 100%;
+    }
+} 
+
+/* tablet */
+@media all and (min-width: 768px) {
+    p {
+        width: 40%
+    }
+
+    .boxes_heading-stand > p {
+        padding-left: 1%;
+        
+    }   
+    
+    .boxes_heading-desgin {
+        padding-left: 15%;
+    }
+}
+
+/* PC */
+@media all and (min-width: 1024px) {
+    p {
+        width: 40%
+    }
+
+    .boxes_heading-stand > p,
+    .boxes_heading-desgin > p {
+        padding-left: 2%;
+        
+    }
+
+    .boxes_heading-desgin {
+        padding-left: 30%;
+        
+    }
+
+} 
+
+
+
