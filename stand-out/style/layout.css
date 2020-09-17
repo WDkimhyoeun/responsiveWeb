@@ -51,7 +51,7 @@ ul {
 }
 
 .boxes_heading-web >h1 {
-    width: 20%;
+    width: 260px;
 }
 
 .boxes_heading-web h1:nth-child(1) {
@@ -59,6 +59,7 @@ ul {
 }
 
 .boxes_sub-heading-table {
+    padding: 10%;
     height: 400px;
     background-color: #2d3b3f;
 }
@@ -70,3 +71,5 @@ ul {
 .boxes_sub-heading-table > p {
     color: #ffff;
 }
+
+
