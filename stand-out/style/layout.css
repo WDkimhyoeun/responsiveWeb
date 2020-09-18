@@ -50,8 +50,12 @@ ul {
     float:left;
 }
 
+.boxes li:nth-child(6) {
+    padding-bottom: 0px;
+}
+
 .boxes_sub-heading-table {
-    padding: 10%;
+    padding: 7%;
     height: 400px;
     background-color: #2d3b3f;
 }
@@ -70,3 +74,15 @@ ul {
     text-indent: 16%;
 }
 
+.footer {
+    padding: 4.5rem;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.footer > p {
+    background-color: #232f32;
+    color: #ffff;
+    margin: 0;
+    text-align: center;
+}
