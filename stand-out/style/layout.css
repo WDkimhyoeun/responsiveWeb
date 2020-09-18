@@ -50,14 +50,6 @@ ul {
     float:left;
 }
 
-.boxes_heading-web >h1 {
-    width: 260px;
-}
-
-.boxes_heading-web h1:nth-child(1) {
-    text-align: right;
-}
-
 .boxes_sub-heading-table {
     padding: 10%;
     height: 400px;

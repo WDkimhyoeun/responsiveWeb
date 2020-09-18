@@ -7,6 +7,20 @@
     p {
         width: 100%;
     }
+
+    .boxes_heading-web > h1 {
+        width: 200px;
+        white-space: normal;
+    }
+
+    .boxes_heading-web h1:nth-child(1) {
+        text-align: left;
+    }
+
+    .boxes_sub-heading-table > h3 {
+        word-wrap: break-word;
+    }
+
 } 
 
 /* tablet */
@@ -24,13 +38,22 @@
     }
 
     .boxes_heading-design > p {
-        padding-left: 10%;
+        padding-left: 5%;
         width: 80%;
     }
 
     .boxes_heading-web {
         padding-left: 10%;
     }
+
+    .boxes_heading-web >h1 {
+        width: 260px;
+    }
+
+    .boxes_heading-web h1:nth-child(1) {
+        text-align: right;
+    }
+
 }
 
 /* PC */
@@ -39,7 +62,7 @@
         width: 40%
     }
 
-    .boxes_heading-stand > p {
+    [class*="boxes_heading-stand"] > p {
         padding-left: 2%;
     }
 
@@ -48,16 +71,26 @@
     }
 
     .boxes_heading-design > p {
-        padding-left: 20%;
+        padding-left: 15%;
         width: 90%;
     }
-
+    
     .boxes_heading-web {
-        padding-left: 20%;
+        width: 60%;
+        min-width: 60px;
+    }
+
+    .boxes_heading-web >h1 {
+        width: 260px;
+    }
+
+    .boxes_heading-web h1:nth-child(1) {
+        text-align: right;
     }
 
     .boxes_heading-web > p {
-        padding-left: -20%;
+        max-width: 30%;
+        text-align: right;
     }
 
 } 
