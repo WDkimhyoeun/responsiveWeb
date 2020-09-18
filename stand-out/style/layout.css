@@ -58,12 +58,12 @@ ul {
     width: 100%;
     height: 80px;
     margin: 0;
-    text-align: left;
     font-weight: bold;
 }
 
-.header-menu {
-    
+.header-menu > img {
+    width: 20px;
+    height: 20px;
 }
 
 .boxes > * {

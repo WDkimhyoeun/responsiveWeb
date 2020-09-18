@@ -10,6 +10,10 @@
         width: 100%;
     }
 
+    .header-menu {
+        padding-left: 80%;
+    }
+
     .boxes_heading-web > h1 {
         width: 200px;
         white-space: normal;
@@ -30,6 +34,10 @@
 @media all and (min-width: 768px) {
     p {
         width: 40%
+    }
+
+    .header-menu {
+        padding-left: 90%;
     }
 
     .boxes_heading-stand > p {
@@ -89,6 +97,10 @@
 
     [class*="boxes_heading-stand"] > p {
         padding-left: 2%;
+    }
+
+    .header-menu {
+        padding-left: 95%;
     }
 
     .boxes_heading-design {
