@@ -77,12 +77,13 @@ ul {
 .footer {
     padding: 4.5rem;
     padding-top: 0px;
-    width: 100%;
+    word-wrap: break-word;
 }
 
 .footer > p {
     background-color: #232f32;
     color: #ffff;
+    width: 100%;
     margin: 0;
     text-align: center;
 }
