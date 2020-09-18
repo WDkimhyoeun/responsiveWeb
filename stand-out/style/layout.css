@@ -45,6 +45,27 @@ ul {
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 4.5rem;
+    padding-top: 0px;
+    word-wrap: break-word;
+}
+
+.header-home > p {
+    color: #fe5a5d;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.header-menu {
+    
+}
+
 .boxes > * {
     padding: 4.5rem;
     float:left;
