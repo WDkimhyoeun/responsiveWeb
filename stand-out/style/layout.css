@@ -58,10 +58,15 @@ ul {
 
 .boxes_sub-heading-table > h2 {
     color: #ffff;
+    text-indent: 5%;
 }
 
 .boxes_sub-heading-table > p {
     color: #ffff;
+    width: 100%;
 }
 
+.boxes_sub-heading-table > h3 {
+    text-indent: 16%;
+}
 

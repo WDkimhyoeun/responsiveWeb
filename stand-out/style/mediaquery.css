@@ -1,4 +1,6 @@
+
 /* smartphone */
+/* 320px~767px */
 @media all and (min-width:320px) {
     * {
         padding-left: 0%;
@@ -24,6 +26,7 @@
 } 
 
 /* tablet */
+/* 768px~1023 */
 @media all and (min-width: 768px) {
     p {
         width: 40%
@@ -54,9 +57,31 @@
         text-align: right;
     }
 
+    .boxes_heading-stand-second h1 {
+        width: 45%;
+        text-align: right;
+    }
+
+    .boxes_heading-stand-second p {
+        text-align: right;
+    }
+
+    .boxes_sub-heading {
+        text-align: center;
+    }
+    
+    .boxes_sub-heading > p {
+        text-align: center;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
 }
 
+
 /* PC */
+/* 1024px~ */
 @media all and (min-width: 1024px) {
     p {
         width: 40%
@@ -93,7 +118,20 @@
         text-align: right;
     }
 
+    .boxes_heading-stand-second h1 {
+        width: 45%;
+        text-align: right;
+    }
+
+    .boxes_sub-heading {
+        text-align: center;
+    }
+    
+    .boxes_sub-heading > p {
+        text-align: center;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+    }    
+
 } 
-
-
-
